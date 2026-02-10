@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>dev, staging, prod</description>
+   <name>TC_OpenURL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a92cde67-1147-4e9b-80d0-753b25d6e80a</testCaseGuid>
+</TestCaseEntity>

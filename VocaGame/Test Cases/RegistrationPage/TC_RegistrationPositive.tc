@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RegistrationPositive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>adf3da38-ea0c-4fa4-9c5d-fc0d7b9c7cf7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3415494d-9b7b-42d4-964a-416af789a4dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Testes123!'</defaultValue>
+      <description></description>
+      <id>3415494d-9b7b-42d4-964a-416af789a4dd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

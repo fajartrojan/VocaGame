@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LoginPositive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd74e89e-e696-43ca-8363-6d07e1da01b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc965d5c-2bfd-4718-99a2-16ec305b23a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e814828f-8efc-4a88-98ef-e59ecb19c176</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test1770708879701@yopmail.com'</defaultValue>
+      <description></description>
+      <id>cc965d5c-2bfd-4718-99a2-16ec305b23a9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testes123!'</defaultValue>
+      <description></description>
+      <id>e814828f-8efc-4a88-98ef-e59ecb19c176</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

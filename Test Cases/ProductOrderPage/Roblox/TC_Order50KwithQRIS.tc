@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Order50KwithQRIS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a92b131-c04c-4ff3-b042-72f2f62f534d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57b2c78f-3729-42a3-aabc-cfc808931fe5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test1770708879701@yopmail.com'</defaultValue>
+      <description></description>
+      <id>57b2c78f-3729-42a3-aabc-cfc808931fe5</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
