@@ -16,19 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.click(findTestObject('Object Repository/ProductOrderPage/TxtSearch'))
 WebUI.setText(findTestObject('Object Repository/ProductOrderPage/TxtSearch'), "Roblox")
 WebUI.click(findTestObject('Object Repository/ProductOrderPage/ImgRoblox'))
-
-WebUI.click(findTestObject('Object Repository/ProductOrderPage/TxtEmail'))
 WebUI.setText(findTestObject('Object Repository/ProductOrderPage/TxtEmail'), email)
 
-//Choose product roblox 50k
 def productRoblox50k = findTestObject('Object Repository/ProductOrderPage/LblRoblox50k')
-WebUI.scrollToElement(productRoblox50k, GlobalVariable.timeOut)
+WebUI.waitForElementPresent(productRoblox50k, GlobalVariable.timeOut)
+WebElement element = WebUiCommonHelper.findWebElement(productRoblox50k, GlobalVariable.timeOut)
 WebUI.delay(1)
-WebUI.waitForElementVisible(productRoblox50k, GlobalVariable.timeOut)
 WebUI.click(productRoblox50k)
 
 //Choose payment with qris
