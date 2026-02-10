@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>d9d082f2-cbf1-4955-bf09-fa7db15fcc78</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/LoginPage/TC_LoginNegative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

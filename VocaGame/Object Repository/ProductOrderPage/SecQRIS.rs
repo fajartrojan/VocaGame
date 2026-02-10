@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'flex flex-1 items-center justify-between py-4 transition-all [&amp;[data-state=open]>svg]:rotate-180 w-full border-b border-border-secondary !py-3 font-semibold text-black hover:no-underline [&amp;>svg]:h-6 [&amp;>svg]:w-6 [&amp;>svg]:text-brand' and @type = 'button']</value>
+         <value>//*[@class = 'flex flex-1 items-center justify-between py-4 transition-all [&amp;[data-state=open]>svg]:rotate-180 w-full border-b border-border-secondary !py-3 font-semibold text-black hover:no-underline [&amp;>svg]:h-6 [&amp;>svg]:w-6 [&amp;>svg]:text-brand']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,14 +19,14 @@
       <name>class</name>
       <type>Main</type>
       <value>flex flex-1 items-center justify-between py-4 transition-all [&amp;[data-state=open]>svg]:rotate-180 w-full border-b border-border-secondary !py-3 font-semibold text-black hover:no-underline [&amp;>svg]:h-6 [&amp;>svg]:w-6 [&amp;>svg]:text-brand</value>
-      <webElementGuid>23552f63-302f-4a98-8bc3-37555706802a</webElementGuid>
+      <webElementGuid>64fd3087-a9a3-4565-a7b6-f518500a7dd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3be25ad9-0b86-42d7-ae6e-076f81e6ac2f</webElementGuid>
+      <webElementGuid>b2466936-4cb1-4957-951f-cc5285f8086a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

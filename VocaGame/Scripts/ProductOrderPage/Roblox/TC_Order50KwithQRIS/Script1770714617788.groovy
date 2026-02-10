@@ -22,11 +22,15 @@ import org.openqa.selenium.WebElement as WebElement
 WebUI.click(findTestObject('Object Repository/ProductOrderPage/TxtSearch'))
 WebUI.setText(findTestObject('Object Repository/ProductOrderPage/TxtSearch'), "Roblox")
 WebUI.click(findTestObject('Object Repository/ProductOrderPage/ImgRoblox'))
+
+WebUI.click(findTestObject('Object Repository/ProductOrderPage/TxtEmail'))
+WebUI.clearText(findTestObject('Object Repository/ProductOrderPage/TxtEmail'))
 WebUI.setText(findTestObject('Object Repository/ProductOrderPage/TxtEmail'), email)
 
 def productRoblox50k = findTestObject('Object Repository/ProductOrderPage/LblRoblox50k')
 WebUI.waitForElementPresent(productRoblox50k, GlobalVariable.timeOut)
 WebElement element = WebUiCommonHelper.findWebElement(productRoblox50k, GlobalVariable.timeOut)
+WebUI.executeJavaScript("arguments[0].scrollIntoView({block: 'center'});", Arrays.asList(element))
 WebUI.delay(1)
 WebUI.click(productRoblox50k)
 
